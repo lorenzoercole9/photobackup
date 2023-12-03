@@ -1,8 +1,8 @@
 # Photobackup Project
 
-## Ultima Modifica: Implementazione Iniziale API Google Drive
+## Ultima Modifica: Implementazione Interfaccia per caricare file
 
-In questa versione, ho aggiunto il supporto di base per l'API Google Drive. Attualmente, il programma è in grado di leggere i file presenti su Google Drive.
+In questa versione, ho aggiunto la possibilita tramite interfaccia l'inserimento dei file in drive. Attualmente, il programma è in grado di leggere e inserie i file su Google Drive.
 
 ### Modifiche apportate:
 - Aggiunta dipendenza per l'API Google Drive
