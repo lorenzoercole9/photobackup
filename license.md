@@ -1,20 +1,28 @@
-# Licenza Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+# Licenza MIT (MIT)
 
 Copyright (c) 2023 Lorenzo Ercole
 
-Il presente lavoro è concesso in licenza sotto i termini della Licenza Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+Con la presente viene concesso il permesso, a titolo gratuito, a chiunque ottenga una copia di questo software e dei file di documentazione associati (il "Software"), di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire , pubblicare, distribuire, concedere in sublicenza e/o vendere copie del Software e consentire alle persone a cui viene fornito il Software di farlo, alle seguenti condizioni:
 
-È possibile visualizzare una copia del testo completo della licenza a questo indirizzo: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+1. DIRITTO DI MODIFICA
 
-In breve, sei libero di:
+L'utente ha il diritto di apportare modifiche al Software per adattarlo alle proprie esigenze.
 
-- Condividere: Copiare e redistribuire il materiale in qualsiasi supporto o formato.
-- Adattare: Modificare, trasformare e costruire su questo materiale.
+2. DIRITTO DI DISTRIBUZIONE COMMERCIALE
 
-Alle seguenti condizioni:
+L'utente ha il diritto di distribuire commercialmente il Software o prodotti derivati dal Software.
 
-- Attribuzione: Devi dare appropriato riconoscimento, fornire un link alla licenza e indicare se sono state apportate modifiche. Puoi farlo in qualsiasi modo ragionevole, ma non in alcun modo che suggerisca che il licenziante approvi te o il tuo utilizzo.
-- Non commerciale: Non puoi utilizzare il materiale per scopi commerciali.
-- ShareAlike: Se remixi, trasformi o ti basi sul materiale, devi distribuire i tuoi contributi con la stessa licenza dell'originale.
+3. PAGAMENTO DI UNA PERCENTUALE SUI GUADAGNI
 
-Tutte le restrizioni della licenza Creative Commons BY-NC-SA 4.0 si applicano a meno che non siano esplicitamente revocate da un accordo di licenza separato.
+Qualora l'utente decida di distribuire o vendere commercialmente il Software o prodotti derivati dal Software e realizzi un profitto, l'utente si impegna a versare al detentore della licenza originale una percentuale dei guadagni derivanti da tali attività commerciali. La percentuale e i termini di pagamento saranno definiti separatamente in un accordo tra le parti.
+
+4. RENDICONTAZIONE
+
+L'utente si impegna a fornire al detentore della licenza originale una rendicontazione trasparente dei guadagni derivanti dalla distribuzione o vendita commerciale del Software o di prodotti derivati dal Software.
+
+5. DURATA DELLA LICENZA
+
+La presente licenza è valida a tempo indeterminato, salvo disdetta da parte di una delle parti.
+
+
+L'avviso sul copyright di cui sopra e il presente avviso di autorizzazione saranno inclusi in tutte le copie o parti sostanziali del Software.
