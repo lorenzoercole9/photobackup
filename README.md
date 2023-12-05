@@ -1,6 +1,6 @@
 ## Licenza
 
-Questo progetto è concesso in licenza ai sensi della [Licenza (CC BY-NC-SA) ](license.md).
+Questo progetto è concesso in licenza ai sensi della [Licenza MIT](license.md).
 
 # Photobackup Project
 
