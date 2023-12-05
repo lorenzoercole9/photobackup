@@ -17,4 +17,4 @@ Queste modifiche rendono il programma più versatile e consentono all'utente di 
 
 ## Licenza
 
-Questo progetto è concesso in licenza ai sensi della [Licenza MIT](LICENSE.md).
+Questo progetto è concesso in licenza ai sensi della [Licenza MIT](license.md).
