@@ -1,3 +1,7 @@
+## Licenza
+
+Questo progetto è concesso in licenza ai sensi della [Licenza (CC BY-NC-SA) ](license.md).
+
 # Photobackup Project
 
 ## Ultima Modifica: Implementazione Interfaccia per caricare file
@@ -15,6 +19,4 @@ In questa versione, ho aggiunto la possibilita tramite interfaccia l'inserimento
 
 Queste modifiche rendono il programma più versatile e consentono all'utente di interagire direttamente con i file da caricare su Google Drive.
 
-## Licenza
 
-Questo progetto è concesso in licenza ai sensi della [Licenza (CC BY-NC-SA) ](license.md).
