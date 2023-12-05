@@ -14,3 +14,7 @@ In questa versione, ho aggiunto la possibilita tramite interfaccia l'inserimento
  
 
 Queste modifiche rendono il programma più versatile e consentono all'utente di interagire direttamente con i file da caricare su Google Drive.
+
+## Licenza
+
+Questo progetto è concesso in licenza ai sensi della [Licenza MIT](LICENSE.md).
