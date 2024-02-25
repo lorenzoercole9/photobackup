@@ -73,3 +73,7 @@ Questo script Python consente di caricare i file da un dispositivo di archiviazi
 
 Senti libero di contribuire a questo progetto attraverso problemi e pull requests!
 
+## Licenza
+
+Questo progetto è concesso in licenza sotto i termini della [Licenza MIT](https://opensource.org/licenses/MIT,LICENSE.md)
+
