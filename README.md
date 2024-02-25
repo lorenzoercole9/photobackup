@@ -9,6 +9,7 @@ This Python script allows you to upload files from an external storage device to
 
 - [PyDrive](https://pythonhosted.org/PyDrive/): A Python library for interacting with the Google Drive API.
 - [Pyudev](https://pyudev.readthedocs.io/en/latest/): A Python library for managing hardware device events on the system.
+- Make sure to run the program in a `Linux` environment as it's not possible to run the software on Windows.
 
 ## Configuration
 
@@ -20,10 +21,10 @@ This Python script allows you to upload files from an external storage device to
 ## Usage
 
 1. Connect the external storage device to the system.
-2. Run the Python script `main.py`.
+2. Run the Python script `main.py` with the command `sudo python3 main.py` since the program can only be run as an administrator.
 3. If it's the first time running the script, you'll be prompted to authorize access to Google Drive.
 4. Once authorized, the files present on the device will be automatically uploaded to Google Drive.
-
+5. 
 ## Note
 
 - Ensure you have mounting permissions for the external storage device. Otherwise, file upload won't happen correctly.
@@ -46,6 +47,7 @@ Questo script Python consente di caricare i file da un dispositivo di archiviazi
 
 - [PyDrive](https://pythonhosted.org/PyDrive/): Una libreria Python per interagire con l'API di Google Drive.
 - [Pyudev](https://pyudev.readthedocs.io/en/latest/): Una libreria Python per gestire eventi di dispositivi hardware sul sistema.
+- Assicurati di eseguire il programma in un ambiente `Linux` poiche non possibile avviare il software su windows
 
 ## Configurazione
 
@@ -57,7 +59,7 @@ Questo script Python consente di caricare i file da un dispositivo di archiviazi
 ## Utilizzo
 
 1. Collega il dispositivo di archiviazione esterno al sistema.
-2. Esegui lo script Python `main.py`.
+2. Esegui lo script Python `main.py` con il comando `sudo python3 main.py` poiche e' possibile avviare il programma solo come amministratore
 3. Se è la prima volta che esegui lo script, sarà richiesto di autorizzare l'accesso a Google Drive.
 4. Una volta autorizzato, i file presenti sul dispositivo verranno automaticamente caricati su Google Drive.
 
