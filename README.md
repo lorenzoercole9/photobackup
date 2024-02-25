@@ -1,7 +1,7 @@
 
 ### English:
 
-#PhotoBackup
+# PhotoBackup
 
 This Python script allows you to upload files from an external storage device to Google Drive automatically once the device is connected to the system.
 
@@ -38,7 +38,7 @@ Feel free to contribute to this project through issues and pull requests!
 
 ### Italiano:
 
-#PhotoBackup
+# PhotoBackup
 
 Questo script Python consente di caricare i file da un dispositivo di archiviazione esterno su Google Drive automaticamente una volta che il dispositivo viene collegato al sistema.
 
