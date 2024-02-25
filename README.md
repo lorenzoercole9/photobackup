@@ -36,7 +36,8 @@ This Python script allows you to upload files from an external storage device to
 Feel free to contribute to this project through issues and pull requests!
 
 ## License
-This project is licensed under the terms of the [MIT License](LICENSE.md). 
+This project is licensed under the terms of the [MIT License](LICENSE.md).
+
 You can find the details of the license on this page: [MIT License](https://opensource.org/licenses/MIT).
 
 
@@ -81,5 +82,6 @@ Senti libero di contribuire a questo progetto attraverso problemi e pull request
 ## Licenza
 
 Questo progetto è concesso in licenza sotto i termini della [Licenza MIT](LICENSE.md)
+
 Puoi trovare i dettagli della licenza a questa pagina [Licenza MIT](https://opensource.org/licenses/)
 
