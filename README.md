@@ -81,7 +81,7 @@ Senti libero di contribuire a questo progetto attraverso problemi e pull request
 
 ## Licenza
 
-Questo progetto è concesso in licenza sotto i termini della [Licenza MIT](LICENSE.md)
+Questo progetto è concesso in licenza sotto i termini della [Licenza MIT](LICENSE.md).
 
-Puoi trovare i dettagli della licenza a questa pagina [Licenza MIT](https://opensource.org/licenses/)
+Puoi trovare i dettagli della licenza a questa pagina [Licenza MIT](https://opensource.org/licenses/).
 
