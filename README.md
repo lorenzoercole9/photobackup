@@ -23,7 +23,6 @@ This Python script allows you to upload files from an external storage device to
 2. Run the Python script `main.py` with the command `sudo python3 main.py` since the program can only be run as an administrator.
 3. If it's the first time running the script, you'll be prompted to authorize access to Google Drive.
 4. Once authorized, the files present on the device will be automatically uploaded to Google Drive.
-5. 
 ## Note
 
 - Ensure you have mounting permissions for the external storage device. Otherwise, file upload won't happen correctly.
