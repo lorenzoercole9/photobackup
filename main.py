@@ -1,32 +1,29 @@
 import os
-import pyudev
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
+import pyudev
 
-# Stampa la directory corrente
-print(os.getcwd())
-
-# Effettua l'autenticazione
 gauth = GoogleAuth()
 
 # Prova a caricare le credenziali salvate
-gauth.LoadCredentialsFile("mycreds.txt")
+if os.path.exists("mycreds.txt"):
+    gauth.LoadCredentialsFile("mycreds.txt")
 
-if gauth.credentials is None:
-    # Autenticazione se non ci sono credenziali salvate
-    gauth.LocalWebserverAuth()
-elif gauth.access_token_expired:
-    # Refresh le credenziali se sono scadute
+if gauth.access_token_expired:
+    # Rinnova il token di accesso utilizzando il token di refresh
     gauth.Refresh()
+elif gauth.credentials is None:
+    # Autenticazione se non ci sono credenziali
+    gauth.LocalWebserverAuth()
 else:
-    # Inizializza l'accesso se ci sono credenziali valide
+    # Autorizza le credenziali salvate
     gauth.Authorize()
 
 # Salva le credenziali per la prossima esecuzione
 gauth.SaveCredentialsFile("mycreds.txt")
 
-# Crea un'istanza di GoogleDrive con le credenziali autenticate
 drive = GoogleDrive(gauth)
+
 
 context = pyudev.Context()
 monitor = pyudev.Monitor.from_netlink(context)
@@ -41,7 +38,8 @@ for device in iter(monitor.poll, None):
 
         if device_mount_point is None:
             print("Device not mounted, attempting to mount...")
-            mount_point = "/media/lorenzo/5471-0E2C"  # sostituisci con il tuo punto di montaggio desiderato
+            # Crea un punto di montaggio basato sul nome del dispositivo
+            mount_point = f"/media/lorenzo/{os.path.basename(device_name)}"  # sostituisci 'username' con il tuo nome utente
             os.makedirs(mount_point, exist_ok=True)
             mount_command = f"sudo mount {device_name} {mount_point}"
             result = os.system(mount_command)
@@ -61,5 +59,9 @@ for device in iter(monitor.poll, None):
                     gfile.SetContentFile(file_path)
                     gfile.Upload()
                     print(f"Uploaded {file_path} to Google Drive")
+                    
+                    # Cancella il file dopo averlo caricato
+                    os.remove(file_path)
+                    print(f"Deleted {file_path} from local device")
         except TypeError:
             print("Errore: os.walk ha ricevuto un argomento non valido.")
