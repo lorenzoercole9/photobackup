@@ -24,10 +24,13 @@ def handle_usb_event(action, device):
     if 'usb' in device.subsystem:
         if action == 'add':
             print("Periferica USB collegata: {}".format(device.get('DEVNAME')))
-            # Aggiungi qui la logica per copiare i file dalla chiavetta USB o microSD
-            # Esempio:
-            # file_path = "/media/{}/nome_file".format(device.get('DEVNAME').split("/")[-1])
-            # upload_to_google_drive(file_path)
+            # Ottieni il percorso della periferica USB
+            usb_path = device.get('DEVNAME')
+            # Elenca i file nella periferica USB e carica ognuno su Google Drive
+            for root, dirs, files in os.walk(usb_path):
+                for file_name in files:
+                    file_path = os.path.join(root, file_name)
+                    upload_to_google_drive(file_path)
         elif action == 'remove':
             print("Periferica USB rimossa: {}".format(device.get('DEVNAME')))
 
